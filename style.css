@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.userCard{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sex,
+.height,
+.weight{
+    display: block;
+    margin-top: 20px;
+}
